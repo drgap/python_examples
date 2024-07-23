@@ -20,7 +20,7 @@ def enhanced_app():
             print(f"{x} is divisible by 2, {ans} times")
 
 def enhanced_app2():
-    print("This pc app accepts an integer and divides it by 2.")
+    print("This app accepts an integer and counts how many times it is divisible by 2.")
     user_val = input("Enter an integer (anything else to quit): ")
     while is_int(user_val):
         x = int(user_val)
